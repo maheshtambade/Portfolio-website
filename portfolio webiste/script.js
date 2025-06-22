@@ -81,8 +81,8 @@ if (aboutSection) {
 
   window.openModal = function (type) {
     const data = {
-      phone: { title: "Phone Number", content: "+1234567890" },
-      email: { title: "Email Address", content: "youremail@example.com" }
+      phone: { title: "Phone Number", content: "+917666112839" },
+      email: { title: "Email Address", content: "maheshdtambade@gmail.com" }
     };
     document.getElementById("modal-title").textContent = data[type].title;
     modalContent.textContent = data[type].content;
