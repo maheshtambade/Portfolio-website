@@ -1,0 +1,24 @@
+.navbar {
+  transition: background 0.3s ease-in-out;
+  background: linear-gradient(to right, #F857B0, #F16A5F);
+  padding: 1rem 1.5rem;
+  z-index: 1000;
+  background-color: #F857B0;
+}
+
+
+
+.navbar .nav-link {
+  color: white;
+  font-weight: 500;
+  transition: color 0.2s ease-in-out;
+}
+
+.navbar .nav-link:hover {
+  color: #ffd700;
+}
+
+.navbar-toggler-icon {
+  background-color: #fff;
+  border-radius: 3px;
+}
