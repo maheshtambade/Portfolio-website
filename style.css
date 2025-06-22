@@ -661,7 +661,15 @@ color:black;
        height: 250px;
        width: 250px;
        object-fit: contain;
-}
+        }
+      .leftdiv h1 {
+        font-size:30px;
+        
+                }
+      .leftdiv h3 {
+          font-size:20px;
+          
+                }
 
 
     }
