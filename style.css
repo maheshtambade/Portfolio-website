@@ -532,6 +532,34 @@ color:black;
 }
 
 
+/* Live Demo Button */
+.live-demo {
+  background-color:green;
+  color: white;
+  padding:5px;
+  text-decoration: none;
+  border-radius:5px;
+
+}
+
+/* View Code Button with GitHub Icon */
+.view-code {
+  background-color: #0e7eed;
+  color: white;
+  padding:5px;
+  text-decoration: none;
+  border-radius:5px;
+}
+
+
+/* Hover Effect */
+.btn:hover {
+  transform: scale(1.05);
+}
+
+
+
+
 
 /* Responsive Design */
 @media (max-width: 768px) {
