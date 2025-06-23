@@ -1,23 +1,4 @@
 document.addEventListener("DOMContentLoaded", () => {
-  // === About Section Animation ===
-  const aboutSection = document.getElementById('about');
-if (aboutSection) {
-  const observer = new IntersectionObserver(entries => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('visible');
-      } else {
-        entry.target.classList.remove('visible');
-      }
-    });
-  }, {
-    threshold: 0.2
-  });
-
-  observer.observe(aboutSection);
-}
-
-
   // === Projects Section Animation ===
   const projectsSection = document.getElementById('projects');
   if (projectsSection) {
@@ -44,7 +25,7 @@ if (aboutSection) {
   }
 
   // === Navbar Scroll Effect ===
-  const navbar = document.querySelector(".navbar"); // or ".navbar1" but consistent
+  const navbar = document.querySelector(".navbar");
   window.addEventListener("scroll", () => {
     if (window.scrollY > 50) {
       navbar?.classList.add("navbar-scrolled");
