@@ -74,7 +74,14 @@ body, html {
   font-family: "Lato", sans-serif;
   font-weight: 100;
   font-style: normal;
+
 }
+
+#header1{
+font-size:50px;
+}
+
+
 
 .typed-text {
   display: inline-block;
@@ -114,7 +121,7 @@ body, html {
 }
 
 
-/* about me */
+/* About Me */
 .about-section {
   width: 80%;
   max-width: 800px;
@@ -123,10 +130,10 @@ body, html {
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-  transform: translateX(100%);
-  opacity: 0;
-  transition: all 0.8s ease;
+  opacity: 1; /* Always visible */
+  transform: none; /* No animation */
 }
+
 
 .about-section.visible {
   transform: translateX(0);
@@ -532,6 +539,15 @@ color:black;
 }
 
 
+
+.project-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+
+
 /* Live Demo Button */
 .live-demo {
   background-color:green;
@@ -556,7 +572,6 @@ color:black;
 .btn:hover {
   transform: scale(1.05);
 }
-
 
 
 
@@ -661,15 +676,41 @@ color:black;
        height: 250px;
        width: 250px;
        object-fit: contain;
-        }
-      .leftdiv h1 {
-        font-size:30px;
-        
+          }
+
+          #header1{
+          font-size:30px;
+          display:inline-block;
                 }
-      .leftdiv h3 {
-          font-size:20px;
-          
+
+                #header2{
+                  font-size:15px;
                 }
+
+                .resume-button-wrapper {
+  text-align: center;
+  margin: 15px auto;
+}
+
+.btn-resume {
+  display: inline-block;
+  padding: 10px 20px;
+  background: linear-gradient(to right, #0d6efd, #6610f2);
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  font-size: 10px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.btn-resume i {
+  margin-right: 10px;
+}
+
+
 
 
     }
