@@ -1,2 +1,7 @@
 //this is new css file that will be used for implenting styling and making responsive web apges 
 // most of the people think that css is waster of time but i dont think like that.
+#card{
+  display:flex; 
+  justify-content:center;
+  align-items:center;
+}
